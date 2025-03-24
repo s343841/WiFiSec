@@ -1,0 +1,14 @@
+📊 Risultati:
++--------------+----------------+--------------+--------------+-----------+
+| Protocollo   |   Media (Mbps) |   Max (Mbps) |   Min (Mbps) |   Dev Std |
++==============+================+==============+==============+===========+
+| TCP          |         123.57 |       129.57 |       116.74 |      4.40 |
++--------------+----------------+--------------+--------------+-----------+
+| UDP          |         141.38 |       150.16 |       127.89 |      7.84 |
++--------------+----------------+--------------+--------------+-----------+
+
+specificare che il protocollo usato è 802.11ac con rendimento vicino a 80%.
+capacità = 400 Mbit/sec
+goodput atteso = 400 * 0.8 * 0.5 = 160 Mbps
+spiegare il discostamento causa interferenze, congestione ecc... (guardare lezione professore)
+evidenziare che in udp il goodput è maggiore
