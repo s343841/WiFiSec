@@ -1,0 +1,17 @@
+📊 Risultati:
++--------------+----------------+--------------+--------------+-----------+
+| Protocollo   |   Media (Mbps) |   Max (Mbps) |   Min (Mbps) |   Dev Std |
++==============+================+==============+==============+===========+
+| TCP          |         947.10 |       948.00 |       944.00 |      1.29 |
++--------------+----------------+--------------+--------------+-----------+
+| UDP t=5      |         926.00 |       934.00 |       915.00 |      9.13 |
++--------------+----------------+--------------+--------------+-----------+
+| UDP t=10     |         876.43 |       910.00 |       855.00 |      16.8 |
++--------------+----------------+--------------+--------------+-----------+
+
+nel caso udp t=5, le rilevazioni sono state prese per 5 secondi dopo il comando
+spiegare perché udp va più lento di tcp. In questo caso abbiamo il sendere che manda mediamente a 954Mbps ma il ricevitore perde pacchetti
+mediamente la perdita è del 2.45% di pacchetti.
+
+nel caso udo t=10 notiamo un crollo nel rate del sender dopo il settimo secondo. il rate di invio crolla da 954Mbps a 750/800Mbps. 
+Non ho idea del perché e neanche il professore lo sa. Questo giustifica i dati apparentemente strani.
