@@ -1,0 +1,56 @@
+Utilizzo comando iperf3: iperf3
+
+🔵 Esecuzione test TCP...
+
+
+[Esecuzione 1/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 2/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 3/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 4/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 5/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 6/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 7/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 8/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 9/10] iperf3 -c 192.168.1.68 -J -t 10
+
+[Esecuzione 10/10] iperf3 -c 192.168.1.68 -J -t 10
+
+🔵 Esecuzione test UDP...
+
+
+[Esecuzione 1/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 2/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 3/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 4/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 5/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 6/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 7/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 8/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 9/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+[Esecuzione 10/10] iperf3 -c 192.168.1.68 -J -t 10 -u -b 1000M -l 1472
+
+📊 Risultati:
++--------------+----------------+--------------+--------------+-----------+
+| Protocollo   |   Media (Mbps) |   Max (Mbps) |   Min (Mbps) |   Dev Std |
++==============+================+==============+==============+===========+
+| TCP          |          93.46 |        94    |        91.79 |      0.74 |
++--------------+----------------+--------------+--------------+-----------+
+| UDP          |          96.46 |        97.61 |        95.71 |      0.7  |
++--------------+----------------+--------------+--------------+-----------+
