@@ -1,0 +1,2 @@
+Rendimento TCP-IP = 0.9733333
+Rendimento UDP-IP = 0.9813333
