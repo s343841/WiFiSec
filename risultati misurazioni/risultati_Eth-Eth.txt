@@ -9,8 +9,18 @@
 | UDP t=10     |         876.43 |       910.00 |       855.00 |      16.8 |
 +--------------+----------------+--------------+--------------+-----------+
 
+
+assumiamo una capacità del canale di 1000
+per il goodput atteso moltiplichiamo 1000 * rendimentoTcpIpEth/rendimentoUdpIpEth
+rendimentoTcpIpEth e rendimentoUdpIpEth sono disponibili in rendimenti.txt
+
+goodput atteso usando tcp = 1000 *  0.949 = 949
+goodput atteso usando udp = 1000 *  0.957 = 957
+
+
+
 nel caso udp t=5, le rilevazioni sono state prese per 5 secondi dopo il comando
-spiegare perché udp va più lento di tcp. In questo caso abbiamo il sendere che manda mediamente a 954Mbps ma il ricevitore perde pacchetti
+spiegare perché udp va più lento di tcp. In questo caso abbiamo il sender che manda mediamente a 954Mbps ma il ricevitore perde pacchetti
 mediamente la perdita è del 2.45% di pacchetti.
 
 nel caso udo t=10 notiamo un crollo nel rate del sender dopo il settimo secondo. il rate di invio crolla da 954Mbps a 750/800Mbps. 
