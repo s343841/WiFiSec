@@ -1,2 +1,5 @@
-Rendimento TCP-IP = 0.9733333
-Rendimento UDP-IP = 0.9813333
+Rendimento TCP-IP = (1460)/(1460+20+20) = 0.9733333
+Rendimento UDP-IP = (1460)/(1460+8+20) = 0.9813333
+
+Rendimento TCP-IP-ETH =  (1460)/(1460+20+20+38) = 0.949
+Rendimento UPD-IP-ETH =  (1472)/(1472+8+20+38) =  0.957
