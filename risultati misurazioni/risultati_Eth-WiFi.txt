@@ -1,0 +1,16 @@
+📊 Risultati:
++--------------+----------------+--------------+--------------+-----------+
+| Protocollo   |   Media (Mbps) |   Max (Mbps) |   Min (Mbps) |   Dev Std |
++==============+================+==============+==============+===========+
+| TCP          |         604.00 |       633.00 |       584.00 |      16.6 |
++--------------+----------------+--------------+--------------+-----------+
+| UDP          |         653.30 |       670.00 |       629.00 |      14.4 |
++--------------+----------------+--------------+--------------+-----------+
+
+assumiamo una capacità del canale di 866.7
+per il goodput atteso moltiplichiamo 866.7 * rendimentoWifi * rendimentoTcpIp/rendimentoUdpIp
+rendimentoWifi = 0.8
+rendimentoTcpIp e rendimentoUdpIp sono disponibili in rendimenti.txt
+
+goodput atteso usando tcp = 866.7 * 0.8 * 0.973333 = 674.87
+goodput atteso usando udp = 866.7 * 0.8 * 0.981333 = 680.42
