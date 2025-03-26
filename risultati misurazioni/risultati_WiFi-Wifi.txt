@@ -8,7 +8,14 @@
 +--------------+----------------+--------------+--------------+-----------+
 
 specificare che il protocollo usato è 802.11ac con rendimento vicino a 80%.
-capacità = 400 Mbit/sec
-goodput atteso = 400 * 0.8 * 0.5 = 160 Mbps
+
+assumiamo una capacità del canale di 400
+per il goodput atteso moltiplichiamo 400 * rendimentoWifi * rendimentoTcpIp/rendimentoUdpIp * 0.5 (causa doppia ritrasmissione) 
+rendimentoWifi = 0.8
+rendimentoTcpIp e rendimentoUdpIp sono disponibili in rendimenti.txt
+
+goodput atteso usando tcp = 400 * 0.8 * 0.973333 * 0.5 = 155.73
+goodput atteso usando udp = 400 * 0.8 * 0.981333 * 0.5 = 157.01
+
 spiegare il discostamento causa interferenze, congestione ecc... (guardare lezione professore)
 evidenziare che in udp il goodput è maggiore
